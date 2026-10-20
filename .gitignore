@@ -1,0 +1,38 @@
+# ---------- Python ----------
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---------- 前端 ----------
+ui/node_modules/
+ui/dist/
+
+# ---------- 环境与密钥 ----------
+# Real credentials stay local. Only the placeholder example is versioned.
+.env
+.env.*
+!.env.example
+ui/.env
+ui/.env.*
+!ui/.env.example
+*.pem
+*.key
+
+# ---------- 运行日志与临时文件 ----------
+*.log
+logs/
+artifacts/
+.build-tmp/
+*.err.log
+_scratch/
+ui/public/images/generated/*.png
+
+# ---------- 本地下载与运行时（MySQL 免安装版等）----------
+_downloads/
+_runtime/
+.uv-cache/
+
+# ---------- 百度网盘残留占位文件 ----------
+*.baiduyun.p.downloading
